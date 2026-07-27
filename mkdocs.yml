@@ -39,10 +39,19 @@ nav:
   - Foundation:
       - Governance and roles: foundation/governance-and-roles.md
       - Data map and collections: foundation/data-map-and-collections.md
+      - Unified Catalog and data governance: foundation/unified-catalog.md
       - Data sources and scanning: foundation/data-sources-and-scanning.md
-  - Protection and compliance:
+  - Information protection:
+      - Information protection overview: protection/information-protection.md
+      - Classifiers and sensitive info types: protection/classifiers-and-sits.md
       - Sensitivity labels: protection/sensitivity-labels.md
       - Data loss prevention: protection/data-loss-prevention.md
+      - Data security posture management: protection/data-security-posture-management.md
+  - Risk and compliance:
+      - Insider risk management: compliance/insider-risk-management.md
+      - Communication compliance: compliance/communication-compliance.md
+      - Compliance manager: compliance/compliance-manager.md
+      - Data lifecycle and records: compliance/data-lifecycle-management.md
       - Audit and eDiscovery: protection/audit-and-ediscovery.md
   - Operations:
       - Deployment checklist: operations/deployment-checklist.md

@@ -30,9 +30,16 @@ Govern, protect, and manage data across Microsoft 365, Azure, and multicloud env
 | Understand the solution areas | [Overview](overview.md) |
 | Establish ownership and least-privilege access | [Governance and roles](foundation/governance-and-roles.md) |
 | Discover and organize data | [Data map and collections](foundation/data-map-and-collections.md) |
+| Govern and publish data products | [Unified Catalog and data governance](foundation/unified-catalog.md) |
 | Connect and scan a source | [Data sources and scanning](foundation/data-sources-and-scanning.md) |
+| Know, protect, and prevent data loss | [Information protection](protection/information-protection.md) |
+| Classify sensitive content accurately | [Classifiers and sensitive info types](protection/classifiers-and-sits.md) |
 | Classify and protect content | [Sensitivity labels](protection/sensitivity-labels.md) |
 | Reduce oversharing | [Data loss prevention](protection/data-loss-prevention.md) |
+| See and reduce data risk in one place | [Data security posture management](protection/data-security-posture-management.md) |
+| Manage insider and communication risk | [Insider risk management](compliance/insider-risk-management.md) |
+| Assess and evidence regulatory controls | [Compliance manager](compliance/compliance-manager.md) |
+| Retain and delete on a schedule | [Data lifecycle and records](compliance/data-lifecycle-management.md) |
 | Investigate and retain evidence | [Audit and eDiscovery](protection/audit-and-ediscovery.md) |
 
 <p class="site-note">These guides are learning material. Confirm current support, licensing, and service behavior in Microsoft's official documentation before production use.</p>
