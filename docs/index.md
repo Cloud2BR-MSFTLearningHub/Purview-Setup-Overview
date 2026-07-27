@@ -11,8 +11,6 @@ Last updated: 2026-07-27
 
 <div class="hub-hero" markdown>
 
-## Microsoft Purview
-
 Govern, protect, and manage data across Microsoft 365, Azure, and multicloud environments.
 
 </div>
@@ -42,4 +40,5 @@ Govern, protect, and manage data across Microsoft 365, Azure, and multicloud env
 | Retain and delete on a schedule | [Data lifecycle and records](compliance/data-lifecycle-management.md) |
 | Investigate and retain evidence | [Audit and eDiscovery](protection/audit-and-ediscovery.md) |
 
-<p class="site-note">These guides are learning material. Confirm current support, licensing, and service behavior in Microsoft's official documentation before production use.</p>
+!!! warning
+    These guides are learning material. Confirm current support, licensing, and service behavior in Microsoft's official documentation before production use.
