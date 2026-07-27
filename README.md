@@ -1,41 +1,59 @@
-# org-repo-template
+# Microsoft Purview Setup and Overview Hub
 
 Atlanta, USA
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
-Last updated: 2026-04-07
+Last updated: 2026-07-27
 
 ----------
 
-> Organizational repo ([Cloud2BR Open Source Microsoft Cloud Sandbox - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)) template with automated pipelines (update date, update counter, notebook/markdown review, formatting checks, etc). Includes a general README structure with preferred header and counter badge. Ensures consistency, automation, and best practices across all org projects.
+Microsoft Purview is a set of data security, governance, and compliance solutions,
+not a single switch. This repository explains how to discover data, define ownership,
+classify and protect sensitive information, reduce oversharing, and retain evidence.
 
-## Workflow Summary
+> [!IMPORTANT]
+> Start with [What is Microsoft Purview?](docs/overview.md). Define an accountable
+> owner, intended outcome, data boundary, and pilot evidence before enabling a
+> production scan, label, or policy.
 
-| Workflow | Trigger | What it does |
+## Choose the need
+
+| I need to | Microsoft Purview capability | Guide |
 | --- | --- | --- |
-| `.github/workflows/validate_and_fix_markdown.yml` | Pull requests to `main` | Runs `markdownlint`, auto-fixes Markdown style issues when possible, validates the required header block for every tracked Markdown file, and pushes any fixes back to the PR branch. |
-| `.github/workflows/update-md-date.yml` | Pull requests to `main` | Looks at the full PR diff, updates the `Last updated:` line inside the standard Markdown header block for changed Markdown files, and pushes the result back to the PR branch. |
-| `.github/workflows/validate_and_fix_notebook.yml` | Pull requests to `main` | Validates Jupyter notebooks, normalizes widget metadata when needed, and commits notebook-format fixes back to the PR branch. |
-| `.github/workflows/use-visitor-counter.yml` | Pull requests to `main` and manual runs | Runs the vendored visitor-counter script stored in this repo to refresh Markdown counter badges and `metrics.json`, then commits the updated repository traffic data. |
+| Establish ownership and least-privilege administration | Governance and role-based access control (RBAC) | [Governance and roles](docs/foundation/governance-and-roles.md) |
+| Discover, organize, and govern enterprise data | Data Map and collections | [Data map and collections](docs/foundation/data-map-and-collections.md) |
+| Connect a data store and scan metadata | Data source onboarding and scanning | [Data sources and scanning](docs/foundation/data-sources-and-scanning.md) |
+| Classify, mark, encrypt, or control sensitive content | Sensitivity labels | [Sensitivity labels](docs/protection/sensitivity-labels.md) |
+| Detect or reduce unsafe sharing | Data loss prevention (DLP) | [Data loss prevention](docs/protection/data-loss-prevention.md) |
+| Preserve investigation and legal evidence | Audit and electronic discovery (eDiscovery) | [Audit and eDiscovery](docs/protection/audit-and-ediscovery.md) |
+| Plan a controlled rollout | Deployment checklist | [Deployment checklist](docs/operations/deployment-checklist.md) |
+| Run Purview as a service | Operational model | [Operational model](docs/operations/operational-model.md) |
 
-## Required Markdown Header
+## Implementation path
 
-> Within this org, every tracked Markdown file must include the following block immediately below the main `# Title` line. The location line can vary, but it must exist. The GitHub badge line, the `Cloud2BR OSS - Learning Hub` org link line, the date format, and the separator are org-wide standard and must match this structure exactly. The `Validate and Fix Markdown` workflow checks every tracked `.md` file against this header pattern on pull requests.
+1. Inventory sensitive data, business processes, regulatory obligations, owners, and data locations.
+2. Confirm licensing, supported workloads, data residency, administrative roles, and logging requirements.
+3. Build a limited pilot with one source, classification, protection control, and documented success criteria.
+4. Use simulation or audit mode for data loss prevention policies; review matches, user impact, and exceptions.
+5. Expand only after accountable owners approve results, support procedures, rollback, and ongoing evidence collection.
 
-```md
-# Document Title
+Use the [deployment checklist](docs/operations/deployment-checklist.md) for rollout
+evidence and the [operational model](docs/operations/operational-model.md) for the
+service-review cadence.
 
-City, Country
+> [!NOTE]
+> Features, licensing, workloads, and regional availability can change. Confirm
+> current support and pricing in Microsoft Learn before production deployment.
 
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+## Authoritative references
 
-Last updated: YYYY-MM-DD
-
-----------
-```
+- [Microsoft Purview overview](https://learn.microsoft.com/en-us/purview/purview)
+- [Microsoft Purview Data Map](https://learn.microsoft.com/en-us/purview/data-map)
+- [Learn about sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels)
+- [Learn about data loss prevention](https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp)
+- [Microsoft Purview documentation](https://learn.microsoft.com/en-us/purview/)
 
 <!-- START BADGE -->
 <div align="center">
