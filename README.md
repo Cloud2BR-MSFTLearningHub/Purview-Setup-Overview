@@ -13,6 +13,17 @@ Microsoft Purview is a set of data security, governance, and compliance solution
 not a single switch. This repository explains how to discover data, define ownership,
 classify and protect sensitive information, reduce oversharing, and retain evidence.
 
+<details>
+<summary>List of references</summary>
+
+- [Microsoft Purview overview](https://learn.microsoft.com/en-us/purview/purview)
+- [Microsoft Purview Data Map](https://learn.microsoft.com/en-us/purview/data-map)
+- [Learn about sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels)
+- [Learn about data loss prevention](https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp)
+- [Microsoft Purview documentation](https://learn.microsoft.com/en-us/purview/)
+
+</details>
+
 > [!IMPORTANT]
 > Start with [What is Microsoft Purview?](docs/overview.md). Define an accountable
 > owner, intended outcome, data boundary, and pilot evidence before enabling a
@@ -46,14 +57,6 @@ service-review cadence.
 > [!NOTE]
 > Features, licensing, workloads, and regional availability can change. Confirm
 > current support and pricing in Microsoft Learn before production deployment.
-
-## Authoritative references
-
-- [Microsoft Purview overview](https://learn.microsoft.com/en-us/purview/purview)
-- [Microsoft Purview Data Map](https://learn.microsoft.com/en-us/purview/data-map)
-- [Learn about sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels)
-- [Learn about data loss prevention](https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp)
-- [Microsoft Purview documentation](https://learn.microsoft.com/en-us/purview/)
 
 <!-- START BADGE -->
 <div align="center">
