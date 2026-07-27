@@ -1,0 +1,49 @@
+site_name: Microsoft Purview Setup and Overview Hub
+site_description: Deployment and operations guidance for Microsoft Purview.
+site_url: https://cloud2br-msftlearninghub.github.io/purview-setup-overview/
+repo_url: https://github.com/Cloud2BR-MSFTLearningHub/Purview-Setup-Overview
+repo_name: Cloud2BR-MSFTLearningHub/Purview-Setup-Overview
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  logo: https://avatars.githubusercontent.com/u/195347873?v=4
+  favicon: https://avatars.githubusercontent.com/u/195347873?v=4
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+extra_css:
+  - assets/css/custom.css
+extra_javascript:
+  - assets/js/logo-link.js
+  - assets/js/external-links.js
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Foundation:
+      - Governance and roles: foundation/governance-and-roles.md
+      - Data map and collections: foundation/data-map-and-collections.md
+      - Data sources and scanning: foundation/data-sources-and-scanning.md
+  - Protection and compliance:
+      - Sensitivity labels: protection/sensitivity-labels.md
+      - Data loss prevention: protection/data-loss-prevention.md
+      - Audit and eDiscovery: protection/audit-and-ediscovery.md
+  - Operations:
+      - Deployment checklist: operations/deployment-checklist.md
+      - Operational model: operations/operational-model.md
