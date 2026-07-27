@@ -4,6 +4,14 @@
 .md-typeset { font-size: .8rem; }
 .md-typeset a { color: var(--purview-blue); }
 
+/* Widen the layout: push side panels outward so the center gets more space */
+@media screen and (min-width: 76.25em) {
+  .md-grid { max-width: 96%; }
+}
+@media screen and (min-width: 90em) {
+  .md-grid { max-width: 1800px; }
+}
+
 /* Left navigation: grey non-clickable section titles and tighten left alignment */
 .md-nav { font-size: 0.66rem; }
 .md-sidebar--primary .md-nav__item--section > .md-nav__link,
