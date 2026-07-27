@@ -60,6 +60,16 @@ actions so you work toward an outcome rather than navigating tools separately.
 4. Apply recommended actions, such as labels and DLP policies, deliberately.
 5. Keep human review and audit over any automated or AI-driven remediation.
 
+## Verify and operate
+
+- Confirm the connected solutions (information protection, DLP, insider risk) are
+  producing data before trusting the posture view.
+- Review each objective's metrics and trend line, and prioritize the highest-risk
+  gaps rather than chasing every finding.
+- Validate that any automated or AI-driven action is logged, reversible, and within
+  an approved scope.
+- Re-check AI observability as new AI apps and agents appear in the estate.
+
 ## Business example
 
 > A security team uses the prevent-oversharing objective to find sites exposing

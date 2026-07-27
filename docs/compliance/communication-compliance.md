@@ -60,6 +60,15 @@ classifiers with keyword, sensitive-information, and scope conditions to tune th
 4. Create policies with the channels, classifiers, and conditions you need.
 5. Investigate and remediate matches with human review and recorded outcomes.
 
+## Verify and operate
+
+- Confirm the audit log is enabled and the chosen channels are actually monitored.
+- Combine classifiers with keyword, sensitive-information, and scope conditions to
+  reduce false positives.
+- Keep human review before any action, and use the misclassification feedback loop
+  to improve classifiers over time.
+- Review reviewer decisions and remediation outcomes, and preserve them as evidence.
+
 ## Business example
 
 > A policy monitors Teams and Exchange for harassing language. A reviewer sees a

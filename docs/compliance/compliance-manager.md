@@ -59,6 +59,16 @@ evidenced, and measurable improvement actions.
 4. Track the compliance score and prioritize high-impact actions.
 5. Review Microsoft-managed control details when reporting to auditors.
 
+## Verify and operate
+
+- Keep assessments aligned to the regulations you are actually obligated to meet,
+  and archive ones you no longer need.
+- Track the compliance score over time and use it to prioritize, not as a target to
+  game.
+- Store implementation and test evidence inside each improvement action so audits
+  are self-service.
+- Reassign and re-test actions when owners, systems, or regulations change.
+
 ## Business example
 
 > A compliance lead creates an assessment for a required standard, assigns

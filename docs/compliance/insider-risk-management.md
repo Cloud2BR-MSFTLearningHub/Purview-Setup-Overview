@@ -60,6 +60,17 @@ protecting user privacy through pseudonymization and role separation.
 - Preserve indicators, alerts, case decisions, approvals, and outcomes as evidence.
 - Escalate to eDiscovery or legal only through a defined, authorized workflow.
 
+## Common pitfalls
+
+- Disabling pseudonymization by default, which raises privacy risk and can bias
+  investigations.
+- Creating broad policies that generate more alerts than the team can triage,
+  which buries real risk in noise.
+- Skipping the connectors and prerequisites that give policies the signals they
+  need, so indicators never fire.
+- Letting one role both tune policies and clear their alerts, which undermines the
+  audit trail.
+
 ## Business example
 
 > A policy detects a departing employee copying large volumes of sensitive files

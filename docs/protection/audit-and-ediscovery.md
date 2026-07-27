@@ -22,6 +22,31 @@ Last updated: 2026-07-27
 
 Audit and electronic discovery (eDiscovery) support investigations and legal processes. Restrict access, define retention and legal-hold procedures, and preserve the queries, approvals, and evidence required for each case.
 
+## Why it matters
+
+When a security incident, HR case, or legal matter arises, the first question is
+usually "what happened, and can we prove it." Audit answers the first part by
+recording user and administrator activity across Microsoft services, and
+eDiscovery answers the second by letting authorized teams find, preserve, and
+export the exact content a case needs. Together they turn scattered activity and
+content into defensible evidence. Because both touch sensitive data and can affect
+people's rights, access must be tightly restricted and every action recorded.
+
+The value of these tools depends on decisions you make before an incident.
+Retention determines whether the records you need still exist; legal hold ensures
+content is not deleted while a matter is open; and role separation ensures the
+evidence is trustworthy. An investigation is only as good as the retention and
+hold decisions made months earlier.
+
+## How the tiers differ
+
+Audit (Standard) is on by default and retains records for 180 days, which covers
+many routine investigations. Audit (Premium) extends retention to a year for key
+workloads, adds configurable retention policies and longer retention with an
+add-on, and surfaces higher-value insights such as which mail items were accessed.
+Choose the tier based on how far back your investigations and regulations require
+you to look, and remember that retention changes are not retroactive.
+
 ## Auditing tiers
 
 The unified audit log captures thousands of user and administrator operations across Microsoft services for forensic, compliance, and legal investigations.
@@ -48,6 +73,13 @@ eDiscovery identifies and delivers electronic information for legal cases across
 - Restrict audit search and eDiscovery access to authorized investigators and legal reviewers.
 - Define retention, legal-hold, and add-on licensing before an investigation depends on the data.
 - Preserve the search query, matched records, reviewer decisions, and export evidence for each case.
+
+## Verify and operate
+
+- Confirm the unified audit log is enabled and that key activities are searchable.
+- Validate that retention and any add-on licensing meet your longest investigation window.
+- Test that legal holds prevent deletion for the content locations in a case.
+- Restrict and review who can search audit data and access eDiscovery cases.
 
 ## Business example
 

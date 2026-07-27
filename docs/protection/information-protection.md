@@ -75,6 +75,18 @@ file shares. Start in audit or simulation mode and tune with data owners.
 4. Add DLP in audit mode, then enforce only after tuning and approvals.
 5. Extend to on-premises and cloud stores with the scanner and cloud-app integration.
 
+## Common pitfalls
+
+- Publishing a large label taxonomy before piloting, which confuses users and
+  reduces labeling accuracy; effectiveness drops sharply beyond a handful of
+  main labels.
+- Setting an encrypting label as the default, which can block legitimate external
+  sharing.
+- Treating classification as done; sensitive information types and trainable
+  classifiers need testing and tuning against real content.
+- Rolling out prevention before protection, so DLP fires on content that was never
+  correctly classified in the first place.
+
 ## Business example
 
 > A privacy team enables sensitive information types for regulated identifiers,

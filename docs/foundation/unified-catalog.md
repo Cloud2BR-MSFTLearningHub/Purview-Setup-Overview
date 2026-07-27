@@ -60,6 +60,17 @@ while distributing ownership across the business.
 4. Enable self-service access policies with right-use requirements.
 5. Track health controls and actions to drive continuous improvement.
 
+## Verify and operate
+
+- Confirm data products expose the right assets and that access policies grant the
+  intended, least-privilege access.
+- Review data quality scores at the asset, product, and domain levels and act on
+  low scores.
+- Use health controls and actions to measure governance progress and distribute
+  ownership.
+- Keep glossary terms and critical data elements current as the business vocabulary
+  evolves.
+
 ## Business example
 
 > A finance domain owner publishes a data product of governed reporting tables

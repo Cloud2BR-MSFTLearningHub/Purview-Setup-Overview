@@ -61,6 +61,16 @@ governed schedule, across Microsoft 365.
 4. Use records management for items needing disposition review and proof.
 5. Document schedules, exceptions, holds, and disposition evidence.
 
+## Common pitfalls
+
+- Keeping everything indefinitely, which increases exposure and eDiscovery cost.
+- Using retention labels for high-value records that actually need records
+  management with disposition review and proof of disposal.
+- Applying broad deletion before piloting, which can remove content a hold or
+  regulation requires.
+- Forgetting departed-user content, which lingers in inactive mailboxes without a
+  managed schedule.
+
 ## Business example
 
 > A team retains email for a required number of years and then deletes it with a

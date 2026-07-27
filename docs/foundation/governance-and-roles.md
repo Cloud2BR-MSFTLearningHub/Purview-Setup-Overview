@@ -45,6 +45,42 @@ Assign data owners, compliance owners, platform administrators, and reviewers. U
 
 > Note: after activating a PIM-eligible role for a security group, it can take up to two hours for effective Purview permissions to apply.
 
+## Why governance comes first
+
+Purview policies act on real data and real users, so the wrong access model can
+expose sensitive content or let one person both create and investigate the same
+policy. Governance is therefore the first thing to design, before any scan, label,
+or policy. A clear model defines who owns data, who authors policy, who approves
+change, and who investigates, and it keeps those responsibilities in different
+hands so that controls stay trustworthy and auditable.
+
+Separation of duties is not bureaucracy; it is what makes the evidence Purview
+produces defensible. If the person who tunes a data loss prevention rule is also
+the person who reviews its alerts and can clear them, the audit trail loses value.
+Mapping each responsibility to an accountable owner, and keeping authoring apart
+from investigation and approval, is what lets a regulator or auditor trust the
+result.
+
+## How permissions work
+
+Purview permissions are granted through role groups and, for data governance,
+through tenant and collection or governance-domain roles. Two principles keep the
+model safe. First, grant through security groups rather than to individuals, so
+membership is reviewable and revocable in one place. Second, prefer just-in-time
+elevation with Microsoft Entra Privileged Identity Management (PIM), so privileged
+roles are active only when needed and every activation is logged. Scope always
+matters: a role assigned at a narrow collection or administrative unit limits both
+the blast radius of a mistake and the reach of a compromised account.
+
+## Verify and operate
+
+- Review role-group membership, PIM-eligible assignments, and break-glass accounts
+  on a defined cadence, and remove access that is no longer justified.
+- Confirm that policy authors cannot clear or approve the alerts their own
+  policies generate.
+- Test that scoped administrators see only the data and actions in their scope.
+- Preserve access reviews, approvals, and role changes as governance evidence.
+
 ## Business example
 
 > A compliance team authors sensitivity labels while a separate legal team runs eDiscovery cases. Platform administration is delegated to IT through a PIM-eligible security group, and access reviews confirm that no single person can both author a policy and investigate the evidence it produces.

@@ -48,6 +48,13 @@ risk, so invest in tuning it before you enforce policies that depend on it.
 - Restrict who can view classified content and export classification results.
 - Prefer a small, well-understood set of classifiers over many noisy ones.
 
+## Verify and operate
+
+- Measure precision and recall against known true-positive and benign content, not just spot checks.
+- Use content explorer to confirm where a classifier matches before any policy consumes it.
+- Track classifier changes and re-test dependent labels, DLP, and retention policies.
+- Retire or merge overlapping classifiers that add noise without adding coverage.
+
 ## Business example
 
 > A team needs to protect a proprietary product-code format. A custom sensitive
