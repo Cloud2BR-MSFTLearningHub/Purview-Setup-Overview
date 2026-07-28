@@ -43,6 +43,15 @@ and history of scans and jobs. Semantic metadata is the collection structure and
 classifications. Together these turn a raw list of assets into a governed,
 searchable catalog.
 
+## Set up Data Map collections
+
+1. In the Microsoft Purview portal, confirm the tenant and Data Map capacity are available in the target region and assign a data governance administrator and domain owners.
+2. Create governance domains and collections that match accountable business areas, then assign collection administrators, data curators, and readers through Entra groups.
+3. Register one pilot data source in the correct collection and configure the authentication method, network path, and scan permissions.
+4. Create a scan rule set with only the classifications and scan scope required for the pilot, then schedule the scan during an approved window.
+5. Run the scan and validate discovered assets, schema, classifications, lineage, capacity-unit use, and access boundaries with the data owner.
+6. Add glossary terms, owners, critical data elements, and quality rules before onboarding the next source or expanding the scan scope.
+
 ## How collections shape access
 
 Collections are more than folders; they are the boundary for access control. A

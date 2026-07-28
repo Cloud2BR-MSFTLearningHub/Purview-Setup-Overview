@@ -58,6 +58,15 @@ The unified audit log captures thousands of user and administrator operations ac
 | Extended retention | Not available | Up to 10 years with add-on license |
 | Retention policies and intelligent insights | Not available | Available |
 
+## Set up audit and eDiscovery
+
+1. In the Microsoft Purview portal, confirm the audit solution is enabled, review the Audit Standard or Premium retention requirement, and verify licensing for the required investigation window.
+2. Create Entra security groups for audit search, eDiscovery management, case membership, and legal review, then assign the corresponding Purview role groups with separation of duties.
+3. Define retention policies, legal-hold procedures, case naming, export approval, and evidence-storage requirements before an investigation occurs.
+4. Create a non-production or approved test case, add test custodians and locations, and place a controlled legal hold on representative content.
+5. Run a scoped audit search and Keyword Query Language (KeyQL) eDiscovery search, then confirm results, review-set access, audit evidence, and export controls work as designed.
+6. Document the case workflow, chain-of-custody record, role-review cadence, and emergency legal escalation path.
+
 ## eDiscovery workflow
 
 eDiscovery identifies and delivers electronic information for legal cases across Exchange, SharePoint, OneDrive, Teams, and Microsoft 365 Groups. Work a case through a defined sequence:

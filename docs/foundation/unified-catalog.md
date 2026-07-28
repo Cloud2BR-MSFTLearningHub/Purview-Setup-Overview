@@ -52,6 +52,15 @@ while distributing ownership across the business.
 - **Glossary terms and critical data elements** carry business context and policy.
 - **Health controls, actions, and objectives** track governance progress.
 
+## Set up the Unified Catalog
+
+1. In the Microsoft Purview portal, confirm the Unified Catalog experience is enabled for the tenant and assign governance-domain owners and data-product owners.
+2. Create a pilot governance domain for one business area and define the data-product purpose, accountable owner, consumer audience, and approval process.
+3. Add the scanned and approved assets to the data product, then attach glossary terms, critical data elements, and quality expectations.
+4. Configure the supported self-service access policy or request process with a least-privilege scope and a stated right-use requirement.
+5. Test discovery and access with a consumer account, confirming the product shows the intended assets, context, quality signals, and only the permitted access path.
+6. Review owner assignment, access requests, health actions, and stale products on the agreed governance cadence before expanding to additional domains.
+
 ## Adopt it well
 
 1. Confirm the enterprise version and enable the new experience for your region.

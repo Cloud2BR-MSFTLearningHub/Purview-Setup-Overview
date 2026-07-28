@@ -45,6 +45,15 @@ Assign data owners, compliance owners, platform administrators, and reviewers. U
 
 > Note: after activating a PIM-eligible role for a security group, it can take up to two hours for effective Purview permissions to apply.
 
+## Set up governance roles
+
+1. In the Microsoft Purview portal, identify the tenant administrator, data governance, compliance, investigation, legal-review, and access-review responsibilities.
+2. Create Microsoft Entra security groups for each responsibility and make privileged membership eligible through Privileged Identity Management (PIM) where available.
+3. In Purview **Settings** and the relevant solution area, assign the least-privilege role groups to those security groups rather than individual users.
+4. For Data Map and Unified Catalog, assign governance-domain and collection roles at the narrowest scope that supports the owner or steward task.
+5. Sign in with pilot accounts for a policy author, investigator, and steward to confirm each can perform only the approved actions and see only the approved data.
+6. Record group owners, scope, approval authority, review cadence, and emergency-access process in the governance register.
+
 ## Why governance comes first
 
 Purview policies act on real data and real users, so the wrong access model can
