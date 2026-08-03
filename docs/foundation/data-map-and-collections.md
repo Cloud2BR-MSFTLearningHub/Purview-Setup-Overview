@@ -1,9 +1,9 @@
 # Purview Data Map and Collections
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -71,7 +71,7 @@ structure that mirrors how the business actually owns and consumes data.
 
 ## Plan capacity and cost
 
-The Data Map bills through capacity units; each unit provides 25 operations per second and 10 GB of metadata storage, and it scales elastically with load. Monitor Data Map capacity units and storage size in the Azure portal so growth stays understood and funded.
+The Data Map bills through capacity units; each unit provides 25 operations per second and 10 GB (gigabytes) of metadata storage, and it scales elastically with load. Monitor Data Map capacity units and storage size in the Azure portal so growth stays understood and funded.
 
 Capacity grows with both throughput and stored metadata, so cost is driven by how
 many assets you catalog and how often you scan and update them. Because the map
@@ -88,4 +88,4 @@ delivers, and prune assets and scans that no longer serve a use case.
 
 ## Business example
 
-> A finance domain owner models a collection for finance data, groups reporting tables into a data product, and attaches a Customer ID critical data element. Consumers request access to the product through self-service, while the owner monitors Data Map capacity units to keep metadata growth and cost predictable.
+> A finance domain owner models a collection for finance data, groups reporting tables into a data product, and attaches a Customer ID (identifier) critical data element. Consumers request access to the product through self-service, while the owner monitors Data Map capacity units to keep metadata growth and cost predictable.

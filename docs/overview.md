@@ -1,9 +1,9 @@
 # What Is Microsoft Purview?
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -52,7 +52,7 @@ early: nearly every downstream policy depends on it.
 
 A typical flow starts with discovery. The Data Map scans and classifies sources so
 you know where sensitive data lives. Classification then feeds protection:
-sensitivity labels apply encryption and marking, and DLP watches for risky
+sensitivity labels apply encryption and marking, and DLP (data loss prevention) watches for risky
 sharing. Compliance solutions add retention, legal hold, and investigation on top
 of the same classified data. Finally, Data Security Posture Management gives you a
 single view of risk across all of it. Each stage is only as reliable as the
@@ -76,6 +76,6 @@ Define the data owners, regulatory obligations, high-value data stores, and resp
 
 1. Establish accountable owners, role-based access control (RBAC), and data boundaries.
 2. Connect one representative source and validate metadata, classification, and access behavior.
-3. Pilot labels or DLP in simulation or audit mode; do not begin with blocking actions.
+3. Pilot labels or DLP (data loss prevention) in simulation or audit mode; do not begin with blocking actions.
 4. Measure false positives, user impact, alert handling, and cost before expanding.
 5. Record change, approval, rollback, and operational evidence for every production control.

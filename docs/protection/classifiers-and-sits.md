@@ -1,9 +1,9 @@
 # Purview Classifiers and Sensitive Information Types
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -52,7 +52,7 @@ risk, so invest in tuning it before you enforce policies that depend on it.
 
 - Measure precision and recall against known true-positive and benign content, not just spot checks.
 - Use content explorer to confirm where a classifier matches before any policy consumes it.
-- Track classifier changes and re-test dependent labels, DLP, and retention policies.
+- Track classifier changes and re-test dependent labels, DLP (data loss prevention), and retention policies.
 - Retire or merge overlapping classifiers that add noise without adding coverage.
 
 ## Business example
@@ -60,4 +60,4 @@ risk, so invest in tuning it before you enforce policies that depend on it.
 > A team needs to protect a proprietary product-code format. A custom sensitive
 > information type with a validating function and supporting keywords is tested
 > against sample documents, tuned to reduce false positives, and only then linked
-> to a sensitivity label and a DLP policy in simulation mode.
+> to a sensitivity label and a DLP (data loss prevention) policy in simulation mode.

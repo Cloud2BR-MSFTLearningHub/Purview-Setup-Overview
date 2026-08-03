@@ -1,9 +1,9 @@
 # Purview Governance and Roles
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -43,7 +43,7 @@ Assign data owners, compliance owners, platform administrators, and reviewers. U
 - Review role-group membership, break-glass access, and standing privileged access on a defined cadence.
 - Record who can author policies, who approves them, and who can access investigation evidence.
 
-> Note: after activating a PIM-eligible role for a security group, it can take up to two hours for effective Purview permissions to apply.
+> Note: after activating a PIM (Privileged Identity Management)-eligible role for a security group, it can take up to two hours for effective Purview permissions to apply.
 
 ## Set up governance roles
 
@@ -83,7 +83,7 @@ the blast radius of a mistake and the reach of a compromised account.
 
 ## Verify and operate
 
-- Review role-group membership, PIM-eligible assignments, and break-glass accounts
+- Review role-group membership, PIM (Privileged Identity Management)-eligible assignments, and break-glass accounts
   on a defined cadence, and remove access that is no longer justified.
 - Confirm that policy authors cannot clear or approve the alerts their own
   policies generate.
@@ -92,4 +92,4 @@ the blast radius of a mistake and the reach of a compromised account.
 
 ## Business example
 
-> A compliance team authors sensitivity labels while a separate legal team runs eDiscovery cases. Platform administration is delegated to IT through a PIM-eligible security group, and access reviews confirm that no single person can both author a policy and investigate the evidence it produces.
+> A compliance team authors sensitivity labels while a separate legal team runs eDiscovery cases. Platform administration is delegated to IT (information technology) through a PIM (Privileged Identity Management)-eligible security group, and access reviews confirm that no single person can both author a policy and investigate the evidence it produces.

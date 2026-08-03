@@ -1,9 +1,9 @@
 # Purview Audit and eDiscovery
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -24,7 +24,7 @@ Audit and electronic discovery (eDiscovery) support investigations and legal pro
 
 ## Why it matters
 
-When a security incident, HR case, or legal matter arises, the first question is
+When a security incident, HR (human resources) case, or legal matter arises, the first question is
 usually "what happened, and can we prove it." Audit answers the first part by
 recording user and administrator activity across Microsoft services, and
 eDiscovery answers the second by letting authorized teams find, preserve, and

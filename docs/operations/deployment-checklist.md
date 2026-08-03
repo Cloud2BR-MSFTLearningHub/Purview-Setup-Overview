@@ -1,9 +1,9 @@
 # Purview Deployment Checklist
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -38,17 +38,17 @@ Use this checklist for each Purview rollout. A selected item should have recorde
 
 ## Expand
 
-- [ ] Tune classifications, labels, and DLP conditions with data owners and record exceptions.
+- [ ] Tune classifications, labels, and DLP (data loss prevention) conditions with data owners and record exceptions.
 - [ ] Enable enforcement only after approvals, help-desk readiness, and rollback are tested.
 - [ ] Reconcile source inventory, scan health, and cost after each rollout wave.
 
 ## Operate
 
 - [ ] Review scanner health, policy outcomes, label adoption, and false positives.
-- [ ] Review privileged roles, PIM activations, and access assignments.
+- [ ] Review privileged roles, PIM (Privileged Identity Management) activations, and access assignments.
 - [ ] Revalidate retention, legal hold, licensing, and audit evidence.
 - [ ] Remove retired sources, labels, policies, and billable dependencies.
 
 ## Business example
 
-> For a pilot, a compliance team onboards one SharePoint source, publishes a Confidential label to a small group, and runs a DLP policy in simulation mode. They expand only after data owners, privacy, and finance owners approve the classification accuracy, user impact, and cost.
+> For a pilot, a compliance team onboards one SharePoint source, publishes a Confidential label to a small group, and runs a DLP (data loss prevention) policy in simulation mode. They expand only after data owners, privacy, and finance owners approve the classification accuracy, user impact, and cost.

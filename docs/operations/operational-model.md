@@ -1,9 +1,9 @@
 # Purview Operational Model
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -35,15 +35,15 @@ Operate Purview as a service: review scanner health, policy outcomes, label adop
 ## Operating routines
 
 - Review scanner and connector health, classification drift, and metadata growth.
-- Monitor DLP matches, overrides, false positives, and alert triage in activity explorer.
+- Monitor DLP (data loss prevention) matches, overrides, false positives, and alert triage in activity explorer.
 - Track label adoption, downgrades with justification, and container protection.
-- Review privileged access, PIM activations, and role-group membership.
+- Review privileged access, PIM (Privileged Identity Management) activations, and role-group membership.
 - Convert confirmed incidents into policy, training, or control improvements.
 
 ## Change management
 
-Change-managed items include sources, scans, classifications, collections, labels, DLP policies, retention, legal holds, and access. For each change record the reason, scope, test, expected outcome, owner, rollback, and post-change validation.
+Change-managed items include sources, scans, classifications, collections, labels, DLP (data loss prevention) policies, retention, legal holds, and access. For each change record the reason, scope, test, expected outcome, owner, rollback, and post-change validation.
 
 ## Business example
 
-> A monthly service review finds a DLP policy generating excessive false positives after a new source was onboarded. The compliance owner returns the policy to simulation mode, tunes the sensitive information types with the data owner, and re-enables enforcement only after the pilot evidence is approved.
+> A monthly service review finds a DLP (data loss prevention) policy generating excessive false positives after a new source was onboarded. The compliance owner returns the policy to simulation mode, tunes the sensitive information types with the data owner, and re-enables enforcement only after the pilot evidence is approved.

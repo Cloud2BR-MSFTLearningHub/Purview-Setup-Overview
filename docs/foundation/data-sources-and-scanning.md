@@ -1,9 +1,9 @@
 # Purview Data Sources and Scanning
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -65,7 +65,7 @@ Record the source owner, collection, asset types, credential owner, network path
 
 ## Business example
 
-> A data team onboards one Azure SQL database with a read-only credential, runs a
+> A data team onboards one Azure SQL (Structured Query Language) database with a read-only credential, runs a
 > scoped scan, and confirms the discovered tables, classifications, and lineage in
 > the Data Map. Only after the data owner validates that sensitive columns are
 > classified and visible to the right roles do they schedule recurring scans and
